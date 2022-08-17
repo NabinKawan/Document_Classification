@@ -7,7 +7,7 @@ from nltk.corpus import stopwords
 import fitz
 import pickle
 
-
+nltk.download('stopwords')
 
 #? Initialize the vectorizer
 vectorizer = CountVectorizer()
